@@ -121,7 +121,6 @@ if __name__ == "__main__":
     similar_items = find_similar_item(user_to_rating)
 
 
-    #为用户推荐电影
     while True:
         user_id = int(input("输入用户id："))
         recommands = movie_recommand(user_id, similar_user, similar_items, user_to_rating, item_to_name)
